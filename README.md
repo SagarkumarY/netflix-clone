@@ -1,5 +1,5 @@
 # Netflix Clone
-![Netflix Clone Screenshot](./public/Demo.png)
+![Netflix Clone Screenshot](./frontend/public/Demo.png)
 This project is a Netflix Clone built with a modern frontend and backend stack. The frontend is built using React, Vite, and TailwindCSS, while the backend is powered by Node.js, Express, and MongoDB. This clone replicates the basic functionalities of Netflix, including user authentication, browsing movies and TV shows, and viewing details.
 
 ## Table of Contents
@@ -15,7 +15,7 @@ This project is a Netflix Clone built with a modern frontend and backend stack. 
 
 ## Features
 
-![Auth Diagram](./public//AuthDiagram.png)
+![Auth Diagram](./frontend/public/AuthDiagram.png)
 
 - **User Authentication**: Secure sign-up, login, and logout functionality using JWT.
 - **Movie & TV Show Browsing**: Browse and search for movies and TV shows.
