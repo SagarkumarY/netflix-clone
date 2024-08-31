@@ -19,7 +19,7 @@ function SignupPage() {
     }
   }, [location]);
 
-  const {signup} = useAuthStore();
+  const {signup, isSigningUp} = useAuthStore();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -108,8 +108,9 @@ function SignupPage() {
             <button
               // type="submit"
               className="w-full py-2 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700"
+              disabled={isSigningUp}
             >
-              Sign Up
+              {isSigningUp ? "Loading..." : 'Sign up'}
             </button>
           </form>
 
